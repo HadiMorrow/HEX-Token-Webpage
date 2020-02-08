@@ -3525,7 +3525,7 @@ body.subpage {
   height: 100vh;
   position: relative;
   text-align: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 #four .inner {
@@ -3634,6 +3634,66 @@ body.subpage {
 }
 
 
+#fiveZ .inner {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  position: relative;
+}
+
+#fiveZ h1 {
+  color: #EA35CC;
+  font-size: 1.3em;
+  margin-bottom: .25em;
+  margin-top: .25em;
+}
+
+#fourZ .inner {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  position: relative;
+}
+
+#fourZ h1 {
+  color: #EA35CC;
+  font-size: 1.3em;
+  margin-bottom: .25em;
+  margin-top: .25em;
+}
+
+#threeZ .inner {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  position: relative;
+}
+
+#threeZ h1 {
+  color: #EA35CC;
+  font-size: 1.3em;
+  margin-bottom: .25em;
+  margin-top: .25em;
+}
+
+#twoZ .inner {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  position: relative;
+}
+
+#twoZ h1 {
+  color: #EA35CC;
+  font-size: 1.3em;
+  margin-bottom: .25em;
+  margin-top: .25em;
+}
+
 
 #banner h1 {
   font-size: 3em;
@@ -3722,7 +3782,7 @@ body.subpage {
   height: 3em;
   left: 50%;
   margin-left: -1.5em;
-  overflow: hidden;
+  overflow: visible;
   position: absolute;
   text-indent: 3em;
   white-space: nowrap;
@@ -3915,7 +3975,7 @@ body.is-loading #banner:before {}
   height: 100vh;
   position: relative;
   text-align: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .post .box {
@@ -4051,7 +4111,7 @@ body.is-loading #banner:before {}
   height: 3em;
   left: 50%;
   margin-left: -1.5em;
-  overflow: hidden;
+  overflow: visible;
   position: absolute;
   text-indent: 3em;
   white-space: nowrap;
