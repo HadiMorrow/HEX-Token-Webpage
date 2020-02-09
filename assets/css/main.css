@@ -3776,13 +3776,13 @@ body.is-loading #banner:before {}
 /* Banner */
 #post {
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 #post .inner {
-  margin: 0 auto;
+  margin: 1em auto;
 }
 
 #post .button.icon {
