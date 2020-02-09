@@ -3523,6 +3523,17 @@ body.subpage {
   overflow: auto;
 }
 
+.tbimg {
+
+  -moz-transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+
+}
+
+
+
 #banner .inner {
   -moz-transform: scale(0.95);
   -webkit-transform: scale(0.95);
