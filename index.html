@@ -9,7 +9,7 @@
 <head>
 	<title>HEX TOKEN by RICHARD HEART</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/responsive-full-background-image.css" />
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -28,35 +28,14 @@
 	</script>
 	<style>
 		body {
-			/* Location of the image */
-			background-image: url("images/banner.jpg");
-
-			/* Image is centered vertically and horizontally at all times */
-			background-position: center center;
-
-			/* Image doesn't repeat */
-			background-repeat: no-repeat;
-
-			/* Makes the image fixed in the viewport so that it doesn't move when
-	     the content height is greater than the image height */
-			background-attachment: fixed;
-
-			/* This is what makes the background image rescale based on its container's size */
-			background-size: cover;
-
-			/* Pick a solid background color that will be displayed while the background image is loading */
-			background-color: #464646;
-
-		}
-
-		/* For mobile devices */
-		@media only screen and (max-width: 767px) {
-			body {
-				/* The file size of this background image is 93% smaller
-	     * to improve page load speed on mobile internet connections */
-				background-image: url("images/banner-mobil.jpg");
-			}
-		}
+		display: block;
+    position: relative;
+    background: url("images/banner.jpg") 50% 0 no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}
 	</style>
 </head>
 
