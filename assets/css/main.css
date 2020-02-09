@@ -2689,8 +2689,8 @@ header p {
 table {
   margin-left: 0.1em;
   margin-right: 0.1em;
-  width: 75%;
-  color: rgba(255, 255, 255, 0.5);
+  width: 5%;
+  color: rgb(255, 255, 255);
 }
 
 table tbody tr {
