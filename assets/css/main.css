@@ -3671,7 +3671,6 @@ body.subpage {
   display: block;
   height: 3em;
   left: 50%;
-  margin-left: -1.5em;
   overflow: auto;
   position: absolute;
   text-indent: 3em;
@@ -3996,7 +3995,6 @@ body.is-loading #banner:before {}
   display: block;
   height: 3em;
   left: 50%;
-  margin-left: -1.5em;
   overflow: auto;
   position: absolute;
   text-indent: 3em;
