@@ -1840,7 +1840,6 @@ button,
   padding: 0 1.5em;
   text-align: center;
   text-decoration: none;
-  white-space: nowrap;
   text-transform: uppercase;
 }
 
@@ -3676,7 +3675,6 @@ body.subpage {
   overflow: auto;
   position: absolute;
   text-indent: 3em;
-  white-space: nowrap;
   width: 3em;
   z-index: 2;
   border-radius: 100%;
@@ -4005,7 +4003,6 @@ body.is-loading #banner:before {}
   overflow: auto;
   position: absolute;
   text-indent: 3em;
-  white-space: nowrap;
   width: 3em;
   z-index: 2;
   border-radius: 100%;
