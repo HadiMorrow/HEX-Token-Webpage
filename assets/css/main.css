@@ -2684,7 +2684,7 @@ header p {
 /* Table */
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
-  overflow: visible;
+  overflow: auto;
 }
 
 table {
