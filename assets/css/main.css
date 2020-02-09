@@ -1556,24 +1556,24 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 }
 
 .inner {
-  width: auto;
+  width: inherit;
 }
 
 @media screen and (max-width: 1280px) {
   .inner {
-    width: auto;
+    width: inherit;
   }
 }
 
 @media screen and (max-width: 980px) {
   .inner {
-    width: auto;
+    width: inherit;
   }
 }
 
 @media screen and (max-width: 736px) {
   .inner {
-    width: auto;
+    width: inherit;
   }
 }
 
@@ -3522,30 +3522,6 @@ body.subpage {
   position: relative;
   text-align: center;
   overflow: auto;
-}
-
-#four .inner {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  position: relative;
-}
-
-#two .inner {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  position: relative;
-}
-
-#three .inner {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  position: relative;
 }
 
 #banner .inner {
