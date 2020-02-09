@@ -1768,6 +1768,7 @@ hr {
 /* Box */
 .box {
   background: rgba(0, 0, 0, 0.5);
+  text-align: center;
   border-radius: 4px;
   margin-bottom: 2em;
   overflow: visible;
@@ -2708,7 +2709,7 @@ table th {
   font-size: 0.9em;
   font-weight: 600;
   padding: 0 0.75em 0.75em 0.75em;
-  text-align: left;
+  text-align: center;
 }
 
 table thead {
