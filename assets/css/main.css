@@ -3574,6 +3574,18 @@ body.subpage {
   top: 0.2em;
 }
 
+.h1link {
+  font-size: 2em;
+  line-height: 1.1;
+  font-family: "Sans-Serif", Arial;
+  margin-bottom: .25em;
+  color: #EA35CC;
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+  text-transform: none;
+  position: relative;
+  top: 0.2em;
+}
+
 
 #banner p {
   color: rgba(255, 255, 255, 0.85);
