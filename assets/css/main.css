@@ -3564,24 +3564,39 @@ body.subpage {
 }
 
 #two h1 {
-  color: #EA35CC;
-  font-size: 1.3em;
-  margin-bottom: .25em;
-  margin-top: .25em;
+font-size: 1.5em;
+line-height: 1.1;
+font-family: "Sans-Serif", Arial;
+margin-bottom: .25em;
+color: rgba(255, 255, 255, 0.75);
+text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+text-transform: none;
+position: relative;
+top: 0.2em;
 }
 
 #three h1 {
-  color: #EA35CC;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-family: "Sans-Serif", Arial;
   margin-bottom: .25em;
-  margin-top: .25em;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+  text-transform: none;
+  position: relative;
+  top: 0.2em;
 }
 
 #four h1 {
-  color: #EA35CC;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-family: "Sans-Serif", Arial;
   margin-bottom: .25em;
-  margin-top: .25em;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+  text-transform: none;
+  position: relative;
+  top: 0.2em;
 }
 
 #five .inner {
@@ -3593,10 +3608,15 @@ body.subpage {
 }
 
 #five h1 {
-  color: #EA35CC;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-family: "Sans-Serif", Arial;
   margin-bottom: .25em;
-  margin-top: .25em;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+  text-transform: none;
+  position: relative;
+  top: 0.2em;
 }
 
 #six .inner {
@@ -3608,10 +3628,15 @@ body.subpage {
 }
 
 #six h1 {
-  color: #EA35CC;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-family: "Sans-Serif", Arial;
   margin-bottom: .25em;
-  margin-top: .25em;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+  text-transform: none;
+  position: relative;
+  top: 0.2em;
 }
 
 
@@ -3624,10 +3649,15 @@ body.subpage {
 }
 
 #seven h1 {
-  color: #EA35CC;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-family: "Sans-Serif", Arial;
   margin-bottom: .25em;
-  margin-top: .25em;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+  text-transform: none;
+  position: relative;
+  top: 0.2em;
 }
 
 
@@ -3640,10 +3670,15 @@ body.subpage {
 }
 
 #fiveZ h1 {
-  color: #EA35CC;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-family: "Sans-Serif", Arial;
   margin-bottom: .25em;
-  margin-top: .25em;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+  text-transform: none;
+  position: relative;
+  top: 0.2em;
 }
 
 #fourZ .inner {
@@ -3655,10 +3690,15 @@ body.subpage {
 }
 
 #fourZ h1 {
-  color: #EA35CC;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-family: "Sans-Serif", Arial;
   margin-bottom: .25em;
-  margin-top: .25em;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+  text-transform: none;
+  position: relative;
+  top: 0.2em;
 }
 
 #threeZ .inner {
@@ -3670,10 +3710,15 @@ body.subpage {
 }
 
 #threeZ h1 {
-  color: #EA35CC;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-family: "Sans-Serif", Arial;
   margin-bottom: .25em;
-  margin-top: .25em;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+  text-transform: none;
+  position: relative;
+  top: 0.2em;
 }
 
 #twoZ .inner {
@@ -3685,10 +3730,15 @@ body.subpage {
 }
 
 #twoZ h1 {
-  color: #EA35CC;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-family: "Sans-Serif", Arial;
   margin-bottom: .25em;
-  margin-top: .25em;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+  text-transform: none;
+  position: relative;
+  top: 0.2em;
 }
 
 
