@@ -3586,6 +3586,17 @@ body.subpage {
   top: 0.2em;
 }
 
+.plink {
+  font-size: 1.1em;
+  line-height: 1.1;
+  font-family: "Sans-Serif", Arial;
+  margin-bottom: .25em;
+  color: #f8d347;
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+  text-transform: none;
+  position: relative;
+}
+
 
 #banner p {
   color: rgba(255, 255, 255, 0.85);
