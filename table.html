@@ -8,12 +8,23 @@
 
 <head>
 	<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NX2DV3Z');</script>
-<!-- End Google Tag Manager -->
+	<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-NX2DV3Z');
+	</script>
+	<!-- End Google Tag Manager -->
 	<title>HEX TOKEN by RICHARD HEART</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<link rel="stylesheet" href="assets/css/responsive-full-background-image.css" />
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93039645-2"></script>
 	<script>
@@ -34,23 +46,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		gtag('config', 'UA-93039645-2');
 	</script>
 	<style>
-	  body {
-	  display: block;
-	  position: relative;
-	  background: url("images/banner.jpg") 50% 0 no-repeat;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	}
+		body {
+			display: block;
+			position: relative;
+			background: url("images/banner.jpg") 50% 0 no-repeat;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
 	</style>
 </head>
 
 <body>
 	<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NX2DV3Z"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NX2DV3Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<!-- Header -->
 	<header id="header">
 		<div class="logo"><a href="index.html" alt="Logo">
@@ -74,23 +85,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="inner">
 			<article class="box">
 				<div class="content">
-					<table>
+					<table class="table table-hover">
 						<thead>
 							<tr>
-								<th>Name</th>
-								<th>Description</th>
+								<th scope="col">Name</th>
+								<th scope="col">Description</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th>AdoptionAmplifier<br>
+								<th scope="row">AdoptionAmplifier<br>
 									<div><img class="tbimg" class="tbimg" src="images/AA.png"></div>
 								</th>
 
 								<td>Send ETH to the lobby. Your % of that day's total ETH gets the same % of that days HEX. Day 1 mints 1 Billion HEX. Days 2-351 have ~500 million, to as low as ~300 million if 100% of FreeClaims are made.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>Referral<br>
+								<th scope="row">Referral<br>
 									<div><img class="tbimg" src="images/referrals-gradient.png"></div>
 								</th>
 
@@ -105,25 +118,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</thead>
 						<tbody>
 							<tr>
-								<th>We'reAllSatoshi<br>
+								<th scope="row">We'reAllSatoshi<br>
 									<div><img class="tbimg" src="images/satoshi.png"></div>
 								</th>
 								<td>Stakers get all the unclaimed HEX.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>LateClaims<br>
+								<th scope="row">LateClaims<br>
 									<div><img class="tbimg" src="images/late-claims.png"></div>
 								</th>
 								<td>Each week a BTC holder doesn’t claim they lose 2% of it to stakers.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>SillyWhalePenalty<br>
+								<th scope="row">SillyWhalePenalty<br>
 									<div><img class="tbimg" src="images/whale.png"></div>
 								</th>
 								<td>1k-10K+ BTC claim penalties of 50%-75% of their HEX goes to stakers. Multisig can't claim.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>GoxMeNot<br>
+								<th scope="row">GoxMeNot<br>
 									<div><img class="tbimg" src="images/Mt-Gox.png"></div>
 								</th>
 								<td>The 137,891 Mt.Gox BTC can't claim.</td>
@@ -137,13 +156,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</thead>
 						<tbody>
 							<tr>
-								<th>CriticalMass<br>
+								<th scope="row">CriticalMass<br>
 									<div><img class="tbimg" src="images/critical-mass.png"></div>
 								</th>
 								<td>Amplifies staker pay up to 100% if 100% of possible BTC coins FreeClaim. Excludes TruthEngine.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>Virality<br>
+								<th scope="row">Virality<br>
 									<div><img class="tbimg" src="images/virality.png"></div>
 								</th>
 								<td>Amplifies staker pay up to 100% if 100% of possible BTC addresses FreeClaim. Excludes TruthEngine.</td>
@@ -157,43 +178,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</thead>
 						<tbody>
 							<tr>
-								<th>StakeSharePrice<br>
+								<th scope="row">StakeSharePrice<br>
 									<div><img class="tbimg" src="images/stake-share-price.png"></div>
 								</th>
 								<td>Only increases. Set by the maximum ROI any stake ever ended at.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>Staking<br>
+								<th scope="row">Staking<br>
 									<div><img class="tbimg" src="images/staking-pink.png"></div>
 								</th>
 								<td>If 1% of HEX supply stakes, they average 369% interest. If 2% then 184.5%, if 10% then 36.9% Fewer stakers means higher interest. More stakers means less circulating supply. 1 day minimum.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>TrustlessInterest<br>
+								<th scope="row">TrustlessInterest<br>
 									<div><img class="tbimg" src="images/trustless-pink.png"></div>
 								</th>
 								<td>HEX mints up to 3.69% of total supply a year to stakers. Paid daily. If only 1% of HEX is staked, the average return is 369% net. 469% gross.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>LongerPaysBetter<br>
+								<th scope="row">LongerPaysBetter<br>
 									<div><img class="tbimg" src="images/longer-pays-better.png"></div>
 								</th>
 								<td>The longer you stake, the more you make. Up to 3x shares on a 3641 day stake.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>BiggerPaysBetter<br>
+								<th scope="row">BiggerPaysBetter<br>
 									<div><img class="tbimg" src="images/elephant.png"></div>
 								</th>
 								<td>Up to 10% bonus shares at 150M HEX staked.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>Compounding<br>
+								<th scope="row">Compounding<br>
 									<div><img class="tbimg" src="images/compounding.png"></div>
 								</th>
 								<td>Ending a stake to reinvest its yield never pays more HEX than having a longer stake.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>TruthEngine<br>
+								<th scope="row">TruthEngine<br>
 									<div><img class="tbimg" src="images/truth-engine.png"></div>
 								</th>
 								<td>50% of EmergencyEndStake penalties: 1/2 stake days, minimum 90. Can hit principal. 50% of LateEndStake penalties: 1% of stake per week after a 14 day grace period. Can hit principal.</td>
@@ -207,25 +240,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</thead>
 						<tbody>
 							<tr>
-								<th>BTC FreeClaim<br>
+								<th scope="row">BTC FreeClaim<br>
 									<div><img class="tbimg" src="images/BTC-claim.png"></div>
 								</th>
 								<td>10K HEX per BTC (10K Hearts per Satoshi.) Called "Claim" for short.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>Speed<br>
+								<th scope="row">Speed<br>
 									<div><img class="tbimg" src="images/speed.png"></div>
 								</th>
 								<td>20% day 1, reduces daily to 0% at day 351, the final day of claiming.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>AutoStake<br>
+								<th scope="row">AutoStake<br>
 									<div><img class="tbimg" src="images/auto-stake.png"></div>
 								</th>
 								<td>FreeClaims start 90% staked for 350 days &amp; can't EmergencyEndStake for them. Upgrade to a longer stake and receive up to 3x shares.</td>
+						<tbody>
+							<tr>
 							</tr>
 							<tr>
-								<th>Referral<br>
+								<th scope="row">Referral<br>
 									<div><img class="tbimg" src="images/referrals-magenta.png"></div>
 								</th>
 								<td>Referred users get a 10% bonus minted and their referrer gets a 20% bonus minted.</td>
@@ -250,6 +289,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 
