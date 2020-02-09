@@ -1769,9 +1769,7 @@ hr {
 .box {
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
-  margin-bottom: 2em;
   overflow: scroll;
-  padding: 4em;
 }
 
 .content {
@@ -3523,7 +3521,7 @@ body.subpage {
   height: 100vh;
   position: relative;
   text-align: center;
-  overflow: visible;
+  overflow: auto;
 }
 
 #four .inner {
@@ -3667,7 +3665,7 @@ top: 0.2em;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  position: relative;
+  position:;
 }
 
 #fiveZ h1 {
@@ -3850,7 +3848,7 @@ top: 0.2em;
   height: 3em;
   left: 50%;
   margin-left: -1.5em;
-  overflow: visible;
+  overflow: auto;
   position: absolute;
   text-indent: 3em;
   white-space: nowrap;
@@ -4043,7 +4041,7 @@ body.is-loading #banner:before {}
   height: 100vh;
   position: relative;
   text-align: center;
-  overflow: visible;
+  overflow: auto;
 }
 
 .post .box {
@@ -4179,7 +4177,7 @@ body.is-loading #banner:before {}
   height: 3em;
   left: 50%;
   margin-left: -1.5em;
-  overflow: visible;
+  overflow: auto;
   position: absolute;
   text-indent: 3em;
   white-space: nowrap;
