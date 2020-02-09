@@ -1558,6 +1558,79 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
   width: auto;
 }
 
+
+
+/* default screen, non-retina */
+body {
+  background-image: url("images/banner1440.jpg");
+  background-size: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+
+@media only screen and (max-width: 320px) {
+    /* Small screen, non-retina */
+    body {
+      background-image: url("images/banner320.jpg");
+      background-size: auto;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+     }
+
+@media only screen and (min-resolution: 2dppx) and (max-width: 320px) {
+    /* Small screen, retina */
+    body {
+      background-image: url("images/banner320.jpg");
+      background-size: auto;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+     }
+
+@media only screen and (min-width: 321px) and (max-width: 538px) {
+    /* Medium screen, non-retina */
+    body {
+      background-image: url("images/banner640.jpg");
+      background-size: auto;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+     }
+
+@media only screen and (min-resolution: 2dppx) and (min-width: 321px) and (max-width: 538px) {
+    /* Medium screen, retina */
+    body {
+      background-image: url("images/banner640.jpg");
+      background-size: auto;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+     }
+
+@media only screen and (min-resolution: 2dppx) and (min-width: 539px) {
+    /* Large screen, retina */
+    body {
+      background-image: url("images/banner640.jpg");
+      background-size: auto;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+     }
+
+
+
+
+
+
+
 @media screen and (max-width: 1280px) {
   .inner {
     width: auto;
@@ -3730,15 +3803,10 @@ top: 0.2em;
 }
 
 #twoZ h1 {
-  font-size: 1.5em;
-  line-height: 1.1;
-  font-family: "Sans-Serif", Arial;
+  color: #EA35CC;
+  font-size: 1.3em;
   margin-bottom: .25em;
-  color: rgba(255, 255, 255, 0.75);
-  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
-  text-transform: none;
-  position: relative;
-  top: 0.2em;
+  margin-top: .25em;
 }
 
 
