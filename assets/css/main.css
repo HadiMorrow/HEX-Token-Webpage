@@ -3779,9 +3779,6 @@ body.is-loading #banner:before {}
   background-attachment: fixed;
 }
 
-#post .inner {
-  margin: 0 auto;
-}
 
 #post .button.icon {
   padding: 0;
