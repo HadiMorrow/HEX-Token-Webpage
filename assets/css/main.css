@@ -1769,9 +1769,9 @@ hr {
 .box {
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
-  border-radius: 4px;
   margin-bottom: 2em;
-  overflow: visible;
+  overflow: scroll;
+  padding: 4em;
 }
 
 .content {
